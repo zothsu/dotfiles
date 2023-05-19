@@ -1,15 +1,17 @@
-*logs*
-*.log
-*~
-*.swp
-*.pyc
-emacs.d/elpa
-emacs.d/projectile*
-weechat/sec.conf
-.zsh_history
-.zcompdump
-.zsh_sessions
-dotfiles/nvim/.config/nvim/plugin/*
-.DS_Store
+# standard
+**.DS_Store
 dynamic-exports.zsh
-result*
+.cache
+
+
+# logs and pid
+.local/share/**
+.local/state/**
+logs
+*.log
+
+
+# staging area for cloned repos for projects
+repos
+
+dotfiles/nvim/.config/nvim/plugin/*
