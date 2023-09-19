@@ -3,12 +3,13 @@ alias ls='ls --sort=extension --color=auto'
 alias ll='ls -lh'
 alias lal='ls -alh'
 alias la='ls -A'
-alias pms='sudo pm-suspend'
 alias psg='ps -A | grep'
-alias se='sudo gvim'
-alias e='gvim'
 alias smi='sudo make install'
 alias l='ls -CF'
+
+# VIM
+alias se='sudo gvim'
+alias e='gvim'
 
 # Cool colors for man pages
 alias man="TERMINFO=~/.terminfo TERM=mostlike LESS=C PAGER=less man"
@@ -29,7 +30,7 @@ fi
 alias make='clear && make'
 alias m='make'
 
-# Some more, to avoid mistakes
+# Helping me avoid mistakes
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
