@@ -10,17 +10,16 @@
 
 - link:
     # Shell stuff
-    ~/.aliases: shell/.aliases
-    ~/.functions: shell/.functions
-    ~/.zshrc: shell/.zshrc
+    #~/.aliases: shell/.aliases
+    #~/.functions: shell/.functions
+    ~/.zshrc: zshrc
     # Linters
-    ~/.eslintrc: linters/.eslintrc
+    #~/.eslintrc: linters/.eslintrc
     # Git
     ~/.gitconfig: git/.gitconfig
     ~/.gitignore: git/.gitignore
     # Apps
-    ~/.hammerspoon: applications/.hammerspoon
-    ~/.zazurc.json: applications/.zazurc.json
+    #~/.hammerspoon: applications/.hammerspoon
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
