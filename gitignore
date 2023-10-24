@@ -1,3 +1,21 @@
+# standard
+**.DS_Store
+dynamic-exports.zsh
+.cache
+
+
+# logs and pid
+.local/share/**
+.local/state/**
+logs
+*.log
+
+
+# staging area for cloned repos for projects
+repos
+
+dotfiles/nvim/.config/nvim/plugin/*
+
 # Compiled source #
 ###################
 *.com
