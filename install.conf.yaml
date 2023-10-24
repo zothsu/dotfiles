@@ -5,8 +5,7 @@
 - clean: ['~']
 
 - create:
-    - ~/downloads
-    - ~/.vim/undo-history
+    - ~/work
 
 - link:
     # Shell stuff
@@ -16,8 +15,8 @@
     # Linters
     #~/.eslintrc: linters/.eslintrc
     # Git
-    ~/.gitconfig: git/.gitconfig
-    ~/.gitignore: git/.gitignore
+    ~/.gitconfig:
+    ~/.gitignore: 
     # Apps
     #~/.hammerspoon: applications/.hammerspoon
 
