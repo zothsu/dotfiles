@@ -4,14 +4,10 @@ Here is the repo containing my configuration files for my environmemt.
 
 # Install
 
-Navigate to your hidden .dotFile directory or the directory you would like to keep your dot files in. 
-
-`cd .dotFiles`
-
-To clone only the contents of the repository use a . at the end to specify the current directory
+Navigate to your hidden .dotFile directory (or the directory you keep your dot files in) then clone the contents of this repository to that .dotfiles folder
 
 ```sh
-git clone git@github.com:zothsu/dotfiles.git . 
+cd .dotFiles && git clone git@github.com:zothsu/dotfiles.git . 
 ```
 
 # Thanks
